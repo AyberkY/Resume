@@ -22,12 +22,15 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
+\usepackage{enumitem}
+\setlist{nosep}
+
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Ayberk Yaraneri} % Your name
 %\address{'Sampatham' PO Edakkad, Westhill,Kozhikode,Kerala,India} % Your secondary addess (optional)
-\address{217 390 1132\\ ayberkyaraneri@gmail.com}  % Your phone number and email
+\address{217 390 1132 \\ ayberkyaraneri@gmail.com \\ github.com/AyberkY}  % Your phone number and email
 
 \begin{document}
 
@@ -51,84 +54,81 @@
 
 \begin{rSection}{Education}
 
-{\textbf{University of Illinois at Urbana Champaign}} \hfill {2018 - 2022}\\
-Major: Aerospace Engineering \hfill GPA : 3.43/4.00\\
-Minor: Computer Science
-
-
-\end{rSection}
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Skilla}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Tools& SolidWorks (partial) \\
-Analysis tools & ANSYS (medium)   \\
-Platforms &  MS Office, C.  \\
-\end{tabular}
-
-\end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{MINOR PROJECTS}
-
-{1.	Analysis of   the hardness of cast iron material before and after heat treatment.} \\
-{2.	Construction of a prototype of hydraulic lift bridge.}
+{\textbf{University of Illinois at Urbana Champaign}} \hfill {\em 2018 - 2022}\\
+Bachelor of Science in Aerospace Engineering \hfill {\em GPA : 3.43/4.00} \\
+Minor in Computer Science
 
 
 \end{rSection}
 
-
-%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+%	TECHNICAL COMPETENCIES
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{INTERNSHIP/TRAININGS}
+\begin{rSection} {Technical Competencies}
 
-{Summer Internship, Visakhapatnam Steel Plant, RINL} \hfill June 2016 - July 2016\\
-
-\end{rSection}
-
-\begin{rSection}{POSITION OF RESPONSIBILITY}
-{ Coordinator in national level technical fest YANTRIK.} \hfill 2016 \\
-{ Organizer and Coordinator in national technical fest SAMYAK.} \hfill 2016 and 2017\\
-
-
-\end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Personality Traits}
-{Time management.}\\
-{Adaptable to crucial situations.}\\
-{Easy coping up with team members.}\\
-{Works well under pressure.} \\
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Personal profile}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Date of Birth & 25 August 1997 \\
-Address & A.Umasankara Srinivasu,S/O A. Murali Krishna, \\                  & D.No. 1-71,Lingavaram,Gudivada Rural, \\
-        & Krishna District,Andhra Pradesh 521327.
-   \\
-Languages known &  English, Telugu and Hindi.  \\
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+Programming Languages: & C++, Python, MATLAB, Java \\
+Tools: &  Git, Vim, GDB, Clang, Comfortable working in Linux \\
+Machine Learning Tools: & TensorFlow, Keras, OpenVino  \\
 \end{tabular}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-\begin{rSection}{declaration}
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
 
-{I hereby declare that above provided information is true  to best of my knowledge belief.\\}
-{\\Place : \\ Date : \\}
-{\\ \hfill ARATIKATLA UMASANKARA SRINIVASU}
+\begin{rSection}{Experience}
+
+    \begin{rSubsection}{Illinois Applied Research Institute} {February 2019 - September 2019} {Robotics Developer}
+
+        \item Assisted in the development of autonomous multirotor UAVs intended for a simulated reconnaissance mission utilizing convolutional neural networks for detection and tracking of ground ajents.
+        \item Conducted transfer learning on various object detection networks such as Faster R-CNN, SSD, and YOLO.
+        \item Optimized trained neural networks using the OpenVino toolkit to run on an Intel Movidius Neural Computer Stick for accelerated on-oard inference.
+        \item Configured Raspberry Pi computers to work with the Movidius NCS and transmit observations as Mavlink messages through the Pixhawk flight controller's telemetry connection.
+        \item Wrote code to automate data collection and labelling which expedited the training process.
+        \item Worked with Ardupilot-SITL and Gazebo as a physics simulator.
+
+    \end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Leadership and Activities
+%----------------------------------------------------------------------------------------
+
+\begin{rSection} {leadership and Activities}
+
+    \begin{rSubsection} {NASA Student Launch Rocketry Competition} {September 2018 - Present} {Chief Engineer of Payload}
+
+        \item Collaborating with Project Manager in leading the development of an air deployed autonomous quadrotor UAV tasked to collect a simulated ice sample.
+
+    \end{rSubsection}
+
+    %--------------------------------------------------------------------------------------------
+
+
+    \begin{rSubsection} {NASA Midwest High Power Rocketry Competition} {September 2018 - September 2019} {Avionics Team Lead}
+
+        \item Lead an all-freshman team in developing an avionics package tasked to collect performance data of a supersonic high powered rocket.
+        \item Embedded a Raspberry Pi Zero as the primary flight computer.
+        \item Worked with I2C and SPI communication protocols to acquire data from on-board sensors.
+        \item Assigned and oversaw the development of flight software written in Python for all sub systems.
+        \item Coordinated the development and assembly of a printed circuit board allowing for a more streamlined design.
+
+    \end{rSubsection}
+
+    %--------------------------------------------------------------------------------------------
+
+    \begin{rSubsection} {Spaceport America Cup Rocketry Competition} {September 2018 - June 2019} {Avionics Team Member}
+
+        \item Lead the development of an on-board flight computer designed to actuate external control surfaces for roll control and active drag manipulation.
+        \item Embedded an Atmega328P microcontroller and wrote flight software implementing a closed loop PID controller.
+        \item Designed a printed circuit board that served as the primary structural member of the flight computer.
+        \item Assisted in the development of Wi-Fi enbaled solid state switches using ESP8266 microcontrollers to wirelessly toggle power to onboard systems.
+
+    \end{rSubsection}
 
 \end{rSection}
 
