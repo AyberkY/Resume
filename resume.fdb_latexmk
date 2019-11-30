@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1574914887 "resume.tex" "resume.pdf" "resume" 1574914888
+["pdflatex"] 1575148917 "resume.tex" "resume.pdf" "resume" 1575149020
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -7,7 +7,9 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -32,10 +34,10 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1570920270 4742575 7c4fbe054224a1393d8b0ba17ac84700 ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1570920287 4293248 5973e83128bce19b39b7f9fe26ffeb2a ""
   "/usr/local/texlive/2019/texmf.cnf" 1570920266 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "resume.aux" 1574914888 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "resume.aux" 1575148917 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
   "resume.cls" 1574911469 4805 6ae7614175a2044ec2f183940527511d ""
-  "resume.tex" 1574914887 7120 5ade1e59a91b8c5c9503df4d7f307f4e ""
+  "resume.tex" 1575149013 7393 a9172dd3fb2b86f1621cb2f3bd4895dd ""
   (generated)
   "resume.pdf"
-  "resume.aux"
   "resume.log"
+  "resume.aux"

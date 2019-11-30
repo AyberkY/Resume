@@ -30,7 +30,7 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Ayberk Yaraneri} % Your name
 %\address{'Sampatham' PO Edakkad, Westhill,Kozhikode,Kerala,India} % Your secondary addess (optional)
-\address{217 390 1132 \\ ayberkyaraneri@gmail.com \\ github.com/AyberkY}  % Your phone number and email
+\address{217 390 1132 \\ ayberkyaraneri@gmail.com \\ github.com/ayberky}  % Your phone number and email
 
 \begin{document}
 
@@ -40,12 +40,13 @@
 
     \begin{rSection} {Technical Competencies}
 
-        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
 
-        Programming Languages: & C++, Python, MATLAB, Java, LaTeX \\
-        Tools: &  Git, Vim, GDB, Clang, TensorFlow, Keras, OpenVino \\
-        CAD: & Siemens NX, Solidworks \\
-        Other Competencies: & Linux Command Line, 3D Printing, CNC Laser Cutter  \\
+        Languages: & (Proficient) C++, Python, MATLAB, (Familiar) Java, LaTeX\\
+        Tools: & Git, Vim, Conda, GDB, TensorFlow, Keras, OpenVino, Gazebo, Robot Operating System \\
+        Relevant Skills: & Linux, Embedded Systems, PID Control, I$^2$C, SPI, UART, PCB Design \& Debugging, UAV Piloting\\
+        % CAD: & Siemens NX, Solidworks \\
+        % Other: & 3D Printing, CNC Laser Cutter
 
         \end{tabular}
 
@@ -62,10 +63,9 @@
         \begin{rSubsection}{Illinois Applied Research Institute} {February 2019 - September 2019} {Robotics Developer}
 
             \item Assisted in the development of autonomous multirotor UAVs intended for a simulated reconnaissance mission utilizing convolutional neural networks for detection and tracking of ground ajents.
-            \item Conducted transfer learning on various objec
-            t detection networks such as Faster R-CNN, SSD, and YOLO.
+            \item Conducted transfer learning on various object detection networks such as Faster R-CNN, SSD, and YOLO.
             \item Optimized trained neural networks using the OpenVino toolkit to run on an Intel Movidius Neural Computer Stick for accelerated on-oard inference.
-            \item Configured Raspberry Pi computers to work with the Movidius NCS and transmit observations as Mavlink messages through the Pixhawk flight controller's telemetry connection.0
+            \item Configured Raspberry Pi computers to work with the Movidius NCS and transmit observations as Mavlink messages through the Pixhawk flight controller's telemetry connection.
             \item Wrote code to automate data collection and labelling which expedited the training process.
             % \item Worked with Ardupilot-SITL and Gazebo as a physics simulator.
 
@@ -77,16 +77,16 @@
     %	Leadership and Activities
     %----------------------------------------------------------------------------------------
 
-    \begin{rSection} {leadership and Activities}
+    \begin{rSection} {leadership and Projects}
 
         \begin{rSubsection} {NASA Student Launch Rocketry Competition} {September 2018 - Present} {Chief Engineer of Payload}
 
             \item Collaborating with Project Manager in leading the development of an air deployed autonomous quadrotor intended to deploy from a rocket during descent. Aircraft is tasked to execute a simulated ice sample retrieval mission.
-            \item Working with the Navio2 platform for real time IO coupled with a Raspberry Pi which will be running the open source Ardupilot flight stack for autonomous guidance navigation and control.
-            \item Implementing computer vision algorithms in C++ to run on the Raspberry Pi which will detect and guide the UAV towards the ice retrieval site.
+            \item Working with the Navio2 platform for hard real time IO coupled with a Raspberry Pi running the open source Ardupilot flight stack for autonomous guidance navigation and control.
+            \item Implementing computer vision algorithms in C++ to run on the Raspberry Pi which will detect and guide the UAV's descent towards the ice retrieval site.
             % \item Determined requirements and constraints of said CV algorithms and evaluated their implementations based on factors such as computational overhead, reliability, accuracy, and risk of interfering with the Ardupilot flight stack.
             \item Applying software-in-the-loop methods using Ardupilot-SITL and Gazebo as a physics engine to thoroughly test corner cases and validate software reliability.
-            \item Formulating a development, manufacturing, and testing schedule for structural components of the aircraft.
+            \item Formulating a development, manufacturing, and testing schedule for software and structural components of the aircraft.
 
 
         \end{rSubsection}
@@ -97,12 +97,15 @@
         \begin{rSubsection} {NASA Midwest High Power Rocketry Competition} {September 2018 - September 2019} {Avionics Team Lead}
 
             \item Lead an all-freshman team in developing an avionics package tasked to collect performance data of a supersonic high powered rocket using a variety of sensors.
-            \item Embedded a Raspberry Pi Zero as the primary flight computer which utilized I2C and SPI communication protocols to acquire data from on-board sensors.
+            \item Embedded a Raspberry Pi Zero as the primary flight computer which utilized I$^2$C, SPI, and UART communication protocols to acquire data from on-board sensors.
             \item Assigned and oversaw the development of flight software written in Python for all sub systems.
             \item Successfully incorporated Git as a version control and collaboration tool which significantly enhanced the team's work flow.
             \item Coordinated the development and assembly of a printed circuit board allowing for a more streamlined design.
+            \item Placed 2$^{nd}$ overall in competition completing five flights, two of which were supersonic.
 
         \end{rSubsection}
+
+        \smallskip
 
         %--------------------------------------------------------------------------------------------
 
