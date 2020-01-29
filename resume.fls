@@ -48,15 +48,15 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT resume.aux
 INPUT resume.aux
 OUTPUT resume.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT resume.pdf
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
