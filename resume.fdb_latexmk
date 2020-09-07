@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1599160623 "resume.tex" "resume.pdf" "resume" 1599160656
+["pdflatex"] 1599446798 "resume.tex" "resume.pdf" "resume" 1599446798
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -35,10 +35,10 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1598131437 2440526 179dcd76ada2241d5505b993bc11a550 ""
   "/usr/local/texlive/2020/texmf.cnf" 1598131389 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "enumitem.sty" 1591394497 51697 f8f08183cd2080d9d18a41432d651dfb ""
-  "resume.aux" 1599160624 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "resume.cls" 1591394497 4805 6ae7614175a2044ec2f183940527511d ""
-  "resume.tex" 1599160630 7519 66182864670fa2733c91f0f5fbbb6745 ""
+  "resume.aux" 1599446798 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "resume.cls" 1599446795 4807 d89cc5e3a6cde3fa41667fb05f85f965 ""
+  "resume.tex" 1599161366 7516 edb7c32062635576a339d9421ec130d3 ""
   (generated)
-  "resume.aux"
   "resume.log"
   "resume.pdf"
+  "resume.aux"
